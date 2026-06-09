@@ -1,7 +1,7 @@
 ﻿using Task3;
 
 int seed = 42;
-int transferCount = 1000;
+int transferCount = 100000;
 
 List<decimal> transfers = new List<decimal>();
 
@@ -20,6 +20,8 @@ Console.WriteLine($"Количество транзакций: {transferCount}")
 
 benchmark.CompareAllApproaches(transfers);
 
+
+//DEADLOCK
 //List<BankAccount> accounts = new List<BankAccount>();
 
 //for (int i = 0; i < 10; i++)
