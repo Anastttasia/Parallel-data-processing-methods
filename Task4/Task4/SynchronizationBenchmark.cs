@@ -133,10 +133,10 @@ namespace Task4
 
         public void CompareAllPrimitives(LibraryCatalog library, ResourcePool pool, CrossProcessSync syncer)
         {
-            int readingCount = 50;
-            int writingCount = 10;
-            int requestCount = 100;
-            int operationCount = 20;
+            int readingCount = 10000;
+            int writingCount = 10000;
+            int requestCount = 10000;
+            int operationCount = 10000;
 
             Console.WriteLine("=== Результаты тестирования примитивов синхронизации ===");
 

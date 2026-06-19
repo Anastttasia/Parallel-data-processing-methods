@@ -1,7 +1,7 @@
 ﻿using Task4;
 
 int seed = 42;
-int booksCount = 1000;
+int booksCount = 10000;
 int maxAuthorLenght = 10;
 int maxTitleLenght = 15;
 
